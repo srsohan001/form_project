@@ -1,0 +1,31 @@
+body{
+	color: green;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 60%;
+	border: 5px solid red;
+}
+label{
+	font-size:25px;
+}
+.first_name, .last_name, .email, .password {
+	width: 90%;
+    height: 25px;
+    padding: 5px;
+    font-size: 18px;
+}
+.message{
+	font-size: 18px;
+	padding: 10px;
+}
+button{
+	padding: 3px;
+	background-color: black;
+	color: white;
+	transition: .5s;
+}
+button:hover{
+	cursor: pointer;
+	color: green;
+}
